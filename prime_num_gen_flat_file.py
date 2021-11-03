@@ -1,4 +1,24 @@
 # import math
+"""
+  Prime number generator :
+
+  The program displays the last prime number generated as default start number
+  accept : last prime number to start with
+           how many prime numbers to generate
+  process : will find the prime numbers
+            store the prime numbers in a flat file
+            store the last prime number in a separate parameter file
+                 as the default for next run
+            store the statistics for every 100 prime numbers in a
+                seprate file 0-2 million in file 001
+                             2-3 million in file 002
+                             and so on 1 file for every million numbers
+                        store the last prime number in a separate parameter file
+                 as the default for next run
+            at end display the start and end prime numbers and time taken
+"""
+
+
 import time
 
 
